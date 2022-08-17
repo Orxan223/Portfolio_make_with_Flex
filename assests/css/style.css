@@ -1,0 +1,378 @@
+body h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+body h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 46px;
+}
+
+body p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7D7987;
+
+}
+
+.col-1 {
+    flex: 0 0 8.333333333333334%;
+}
+
+.col-2 {
+    flex: 0 0 16.666666666666668%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+}
+
+.col-4 {
+    flex: 0 0 33.333333333333336%;
+}
+
+.col-5 {
+    flex: 0 0 41.66666666666667%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.333333333333336%;
+}
+
+.col-8 {
+    flex: 0 0 66.66666666666667%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+}
+
+.col-10 {
+    flex: 0 0 83.33333333333334%;
+}
+
+.col-11 {
+    flex: 0 0 91.66666666666667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 35px auto;
+}
+
+.row {
+    display: flex;
+}
+
+
+
+
+/* nav {
+    position: fixed;
+    position: relative;
+    z-index: 99;
+} */
+
+nav a:nth-child(n+2) {
+    margin-right: 42px;
+    color: #1F1534;
+    opacity: 0.5;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    font-size: 18px;
+
+}
+
+nav a:first-child{
+    margin-right: 42px;
+    color: #1F1534;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    font-size: 18px;
+}
+
+
+.col-9 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+
+
+/* home */
+#home .col-5 {
+    margin-top: 120px;
+}
+#home .col-7 {
+    margin-top: 50px;
+}
+#home .textbox h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 56px;
+    padding-right: 16px;
+
+}
+
+#home .textbox p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    padding-right: 85px;
+    margin-top: 25px;
+}
+
+
+#home .textbox input {
+    margin-top: 45px;
+    background: #458FF6;
+    border-radius: 55px;
+    color: #FFFFFF;
+    padding: 13px 45px;
+    border: none;
+    font-family: 'Mulish';
+
+
+}
+
+#home .imgbox img {
+    width: 660px;
+    height: 450px;
+
+}
+
+
+
+/* service */
+#service {
+    margin-top: 150px;
+}
+#service .textbox{
+    padding: 0 50px;
+    height: 300px;
+    width: 300px;
+}
+
+
+#service .textbox img{
+    width: 50px;
+    height: 57px;
+    margin-top: 60px;
+
+}
+
+#service .textbox {
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    height: 300px;
+    width: 383px;
+    margin-right: 25px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+#service .headtext p{
+    text-align: center;
+    padding: 0 195px;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+#service .headtext h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+#service .headtext h1:before {
+    content: "";
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    bottom: -20px;
+    left: 48%;
+    border-bottom: 2px solid #000000;
+}
+
+
+#service .textbox p {
+    line-height: 28px;
+}
+
+
+#service .col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+#service input {
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: #ffffff;
+    padding: 10px 35px;
+    margin-top: 50px;
+}
+
+
+/* apps */
+#apps .container {
+    margin-top: 150px;
+}
+
+#apps .two {
+    margin-top: 180px;
+}
+#apps .second {
+    padding: 0 250px 0px 50px;
+}
+#apps .textbox {
+    padding: 0 221px 0px 50px;
+}
+
+#apps .textbox  p{
+    line-height: 30px;
+    margin-top: 40px;
+}
+#apps .imgbox img {
+    width: 500px;
+    height: 350px;
+}
+
+
+#apps .textbox h1{
+    position: relative;
+    
+}
+
+
+#apps .textbox h1:before {
+    content: "";
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    bottom: -20px;
+    left: 0%;
+    border-bottom: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
+#apps .textbox input {
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: #ffffff;
+    padding: 10px 35px;
+    margin-top: 25px;
+}
+
+
+#apps .textbox .btn img {
+    height: 39px;
+    width: 138px;
+    margin-top: 25px;
+
+}
+
+
+/* testimonials */
+
+#testimonials .container {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin-top: 150px;
+}
+
+#testimonials h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    margin-top: 45px;
+}
+
+
+#testimonials h1:before  {
+    content: "";
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    bottom: -20px;
+    left: 48%;
+    border-bottom: 2px solid #FFFFFF;;
+}
+
+
+#testimonials .about img {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+
+#testimonials .about {
+
+    margin-bottom: 50px;
+    padding-left: 120px;
+}
+
+#testimonials p {
+    font-family: 'Mulish';
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    padding-right: 214px;
+    font-weight: 400;
+    mix-blend-mode: normal;
+    font-style: normal;
+}
+
+
+
+#testimonials h2 {
+    color: #FFFFFF;
+    margin-top: 55px;
+    line-height: 0;
+}
+
+
+#testimonials h5 {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    line-height: 60px;
+}
