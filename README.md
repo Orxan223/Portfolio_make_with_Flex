@@ -1,3 +1,3 @@
-# Website_with_Flex
+# Website_with_make_flex
 
-[Public link](https://orxan223.github.io/Website_with_Flex/)
+[Public link](https://orxan223.github.io/Portfolio_with_make_flex/)
