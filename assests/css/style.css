@@ -376,3 +376,152 @@ nav a:first-child{
     font-size: 18px;
     line-height: 60px;
 }
+
+
+
+/* about */
+#about {
+    margin-top: 150px;
+}
+#about h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+
+#about h1:before {
+    content: "";
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    bottom: -20px;
+    left: 44%;
+    border-bottom: 2px solid #000000;
+}
+
+
+#about img {
+    width: 350px;
+    height: 230px;
+    border-radius: 15px 15px 0 0;
+}
+
+#about .col-4 {
+    margin-right: 15px;
+
+}
+#about .box {
+    padding: 15px 49px 0 40px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+
+#about .box  h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+
+#about .box p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7D7987;
+    line-height: 23px;
+    margin-bottom: 25px;
+
+}
+
+
+#about .icon {
+    display: flex;
+}
+#about a,i {
+    color: #4089ED;
+}
+
+#about a {
+    margin-bottom: 30px;
+}
+
+
+#about i {
+    padding-left: 15px;
+}
+
+
+#about  .col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+#about  input {
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: #ffffff;
+    padding: 10px 35px;
+    margin-top: 60px;
+}
+
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top: 150px;
+    position: absolute;
+    width: 100%;
+}
+
+footer h3,a{
+    color: #FFFFFF;
+}
+
+footer p {
+    color: #FFFFFF;
+
+
+}
+
+
+footer .box {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+footer .logo img {
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+footer .box p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 100px 0 0;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+    color: #ebebeb;
+}
+
+
+footer .box h3 {
+    margin-bottom: 34px;
+}
+
+footer .box a {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 15px;
+    font-family: Mulish;
+    color: #e7e7e7;
+}
